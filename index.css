@@ -25,6 +25,7 @@ input[type=text],input[type=password]{
     padding:0.5rem 0.5rem;
     box-sizing: border-box;
     border:1px solid  #ccc;
+    font-size: large;
 }
 button{
     background-color:#04AA6D;
@@ -33,7 +34,8 @@ button{
     padding: .5rem;
     width:100%;
     cursor:pointer;
-    
+    text-decoration: none;
+    font-size:large;
 }
 button:hover{
     opacity:0.85;
@@ -59,12 +61,14 @@ button:hover{
 @media only screen and (max-width:880px){
     .cancelbtn{
         display: block;
-
+        
     }
     input[type=text],input[type=password]{
         width:7rem;
+        font-size: larger;
     }
     button{
         width:7rem;
+        font-size: larger;
     }
 }
